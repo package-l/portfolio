@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio_website/static/css/main.91d87950.css",
+    "main.js": "/portfolio_website/static/js/main.63a41eeb.js",
+    "static/js/787.c09d15d4.chunk.js": "/portfolio_website/static/js/787.c09d15d4.chunk.js",
+    "static/media/animalcrossing_emoji.png": "/portfolio_website/static/media/animalcrossing_emoji.1eb3b9f014169afe5b52.png",
+    "static/media/Resume.pdf": "/portfolio_website/static/media/Resume.6fa47d22fab743fb37ad.pdf",
+    "index.html": "/portfolio_website/index.html",
+    "main.91d87950.css.map": "/portfolio_website/static/css/main.91d87950.css.map",
+    "main.63a41eeb.js.map": "/portfolio_website/static/js/main.63a41eeb.js.map",
+    "787.c09d15d4.chunk.js.map": "/portfolio_website/static/js/787.c09d15d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91d87950.css",
+    "static/js/main.63a41eeb.js"
+  ]
+}

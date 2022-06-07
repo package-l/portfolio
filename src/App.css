@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+  /*overflow: hidden;*/
+}
+
+/*consolidate App, Projects, AnimalCrossing, etc. styling to one thing?*/
+
+.App {
+  text-align: center;
+  background-color: #EBECF0; /*#282c34*/
+  color: #282c34;
+  min-height: 100vh;
+  font-family: "Nanum Myeongjo", "PT Mono", "Courier New";
+  font-weight: 500;
+  height: 100vh;
+}
+
+/* link styles */
+
+a {
+  color: #8CB98D !important;
+  text-shadow: "0px 0px";
+  font-weight: bold;
+  text-decoration: none!important;
+}
+
+a:hover {
+  text-decoration: underline wavy!important;
+}
+
+/* Home page styling */
+
+.Intro_text {
+  font-weight: normal;
+  text-align: left;
+  padding: 3rem;
+  padding-top: 2rem;
+  font-size: 30px;
+  padding-left: 5rem;
+}
+
+.About_text {
+  text-align: left;
+  padding-top: 1rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  /*margin-left: 10vw;
+  margin-right: 10vw;*/
+  font-size: 20px;
+}
+
+.Contact_text {
+  text-align: left;
+  white-space: pre-line;
+  margin-left: 15vw;
+  padding-top: 3rem;
+  padding-left: 8rem;
+}
+
+.Contact_text span {
+  position: relative;
+  display: block;
+  text-align: left;
+}
+
+/* Projects page styling */
+
+.Projects {
+  text-align: center;
+  background-color: #EBECF0; /*#282c34*/
+  color: #282c34;
+  min-height: 100vh;
+  font-family: "PT Mono", "Courier New"; 
+}
+
+.all_projects {
+  padding-top: 3rem;
+}
+
+.acEmoji {
+  display: block;
+  border-radius: 10px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  width: 100%;
+  /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(70%);
+}
+
+.projects {
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(70%);
+}
+
+
+.container .each_project {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 10px;
+}
+
+.container .each_project .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.container .each_project:hover .overlay {
+  opacity: 0.8;
+}
+
+.container .each_project .overlay .text {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /*-webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);*/
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container .each_project .overlay p {
+  color: #8CB98D;
+  font-size: 12px;
+  margin-top: 80%;
+}
+
+/* overall ghost styling */
+
+/*.ghost_container {
+  /*min-width: 100px;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 3rem;
+}*/
+
+.ghost_container p {
+  visibility: hidden;
+  margin-left: 50%;
+  margin-top: 20%;
+  font-size: 10pt;
+  color:#8CB98D
+}
+
+.ghost_container:hover p {
+  visibility: visible;
+}
+
+.Ghost {
+  width: 55px;
+  float: right;
+  margin-right: 1rem;
+}
+
+.Ghost:hover {
+  transition: 2.5s;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+}
+
+/* Animal Crossing project page styling */
+
+.project {
+  text-align: center;
+  background-color: #EBECF0; /*#282c34*/
+  color: #282c34;
+  min-height: 100vh;
+  font-family: "PT Mono", "Courier New";
+}
+
+.projectImage {
+  /* Change to background image here and set background-size to cover*/
+  object-fit: cover;
+  width: 70%;
+  display: block;
+  border-radius: 10px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  margin: auto;    
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(70%);
+}
+
+.imageContainer {
+  padding-top: 3rem;
+}
+
+.podImage {
+  /* Change to background image here and set background-size to cover*/
+  object-fit: cover;
+  width: 90%;
+  display: block;
+  border-radius: 10px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  margin: auto;    
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(70%);
+}
+
+.Shadows {
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  padding-top: 20vh;
+  height: 100vh;
+}
+
+.Text {
+  font-size: 6rem;
+  text-shadow: 
+               0 0 10px rgba(0,0,0,0.30),
+               0 0 25px rgba(0,0,0,0.25),
+               0 0 50px rgba(0,0,0,0.20),
+               0 0 75px rgba(0,0,0,0.15),
+               0 0 100px rgba(0,0,0,0.10);
+}
+
+
+/* test styling */
+
+.About_text_container {
+  min-height: 150px;
+}
+
+.projectInfo {
+  padding-top: 3rem;
+}
+
+.projectInfo p {
+  font-size: 11pt;
+}
+
+.projectInfo li {
+  list-style-position: inside;
+  font-size: 10pt;
+}
+
+/* Bottom page navigation */
+
+.pageNav {
+  padding: 4rem;
+}
+
+/* Footer */
+
+footer {
+  background: black;
+  padding: 1rem;
+  color: #EBECF0;
+  font-family: "Nanum Myeongjo", "PT Mono", "Courier New";
+  font-weight: 500;
+  font-size: 9pt;
+}
