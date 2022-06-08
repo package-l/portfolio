@@ -84,7 +84,7 @@ const Home = () => {
               <div className="row Contact_text">
                   <span><b>CONTACT:</b></span>
                   <span>louisa.shan.ge@gmail.com</span>
-                  <span><a href="https://github.com/package-l" target="_blank" rel="noopener noreferrer">Github</a></span>
+                  <span><a href="https://github.com/package-l" target="_blank" rel="noopener noreferrer">GitHub</a></span>
                   <span><a href="https://www.linkedin.com/in/louisa-ge/" target="_blank" rel="noopener noreferrer">LinkedIn</a></span>
               </div>
           </div>
