@@ -6,6 +6,7 @@
 
 html, body {
   height: 100%;
+  font-family: "Nanum Myeongjo", "PT Mono", "Courier New";
   /*overflow: hidden;*/
 }
 
