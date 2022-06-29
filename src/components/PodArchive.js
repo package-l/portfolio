@@ -24,7 +24,7 @@ const PodArchive = () => {
                         <div>(<a href="https://github.com/package-l/pod_archive" target="_blank" rel="noopener noreferrer">code</a>)</div> 
                         <br></br>
                         <p>A simple episode-centric website for reviewing and making custom lists of podcast episodes.
-                            The website uses Django and Python to build REST API and authenticate users. Features of the site
+                            The website uses Django and Python to build an API and authenticate users. Features of the site
                             include:
                         </p>
                         <ul>
