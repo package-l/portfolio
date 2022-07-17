@@ -31,7 +31,7 @@ const PodArchive = () => {
                             <li>User log-in/registration/authentication</li>
                             <li>Loose social network system based on follows between users</li>
                             <li>Make custom lists</li>
-                            <li>Lists can be public or privat</li>
+                            <li>Lists can be public or private</li>
                             <li>Add podcast/episode information to the API</li>
                             <li>Add other user's lists to your watchlist</li>
                         </ul>
