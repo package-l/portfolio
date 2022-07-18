@@ -21,7 +21,7 @@ const PodArchive = () => {
                         <h4><b>POD ARCHIVE</b></h4>
                         <h6><b>AN EPISODE-CENTRIC NETWORK SPACE</b></h6>
                         <div>JavaScript, Python, Django, Bootstrap</div>
-                        <div>(<a href="https://github.com/package-l/pod_archive" target="_blank" rel="noopener noreferrer">code</a>)</div> 
+                        <div>(<a href="https://github.com/package-l/podcast_archive" target="_blank" rel="noopener noreferrer">code</a>)</div> 
                         <br></br>
                         <p>A simple episode-centric website for reviewing and making custom lists of podcast episodes.
                             The website uses Django and Python to build an API and authenticate users. Features of the site
