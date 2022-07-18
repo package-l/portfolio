@@ -53,6 +53,7 @@ a:hover {
   padding-top: 2rem;
   font-size: 30px;
   padding-left: 5rem;
+  display: block;
 }
 
 .About_text {
@@ -63,6 +64,7 @@ a:hover {
   /*margin-left: 10vw;
   margin-right: 10vw;*/
   font-size: 20px;
+  display: block;
 }
 
 .Contact_text {
@@ -71,6 +73,7 @@ a:hover {
   margin-left: 15vw;
   padding-top: 3rem;
   padding-left: 8rem;
+  display: block;
 }
 
 .Contact_text span {
