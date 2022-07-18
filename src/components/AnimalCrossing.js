@@ -28,9 +28,7 @@ const AnimalCrossing = () => {
                         Using data scraped from the Twitter API, our team wanted to see what trends were present
                         in the community by looking at tweet density, word frequency, etc. 
                         </p>
-                        <p>My contributions beyond general team ideation and execution include the pictured emoji visualization
-                            and the styling of the website/d3 visualizations.
-                        </p>
+                        <p>My contributions include the pictured emoji visualization.</p>
                         <p>Team members: <br></br>Louisa Ge, Minkuan Chen, Daniel Schwartz, and Ryan Buehler</p>
                     </div>
                 </div>
