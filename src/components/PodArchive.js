@@ -14,10 +14,10 @@ const PodArchive = () => {
                         </div>
                 </div>
                 <div className="row justify-content-center align-items-center">
-                    <div className="col-6 imageContainer">
+                    <div className="col-xs-12 col-s-12 col-md-6 imageContainer">
                         <img className="podImage" src={podArch} alt="Animal Crossing"/>
                     </div>
-                    <div className="col-6 projectInfo">
+                    <div className="col-xs-12 col-s-12 col-md-6 projectInfo">
                         <h4><b>POD ARCHIVE</b></h4>
                         <h6><b>AN EPISODE-CENTRIC NETWORK SPACE</b></h6>
                         <div>JavaScript, Python, Django, Bootstrap</div>
