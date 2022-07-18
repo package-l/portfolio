@@ -14,10 +14,10 @@ const AnimalCrossing = () => {
                         </div>
                 </div>
                 <div className="row">
-                    <div className="col-6 imageContainer">
+                    <div className="col-xs-12 col-s-12 col-md-6 imageContainer">
                         <img className="projectImage" src={emojiGIF} alt="Animal Crossing"/>
                     </div>
-                    <div className="col-6 projectInfo">
+                    <div className="col-xs-12 col-s-12 col-md-6 projectInfo">
                         <h4><b>A DATA VISUALIZATION:</b></h4>
                         <h6><b>ANIMAL CROSSING NEW HORIZONS 2.0</b></h6>
                         <div>React, D3.js, JavaScript, Bootstrap</div>
