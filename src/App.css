@@ -284,4 +284,6 @@ footer {
   font-family: "Nanum Myeongjo", "PT Mono", "Courier New";
   font-weight: 500;
   font-size: 9pt;
+  bottom: 0;
+  position: absolute;
 }
