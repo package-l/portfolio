@@ -29,6 +29,7 @@ body {
   font-family: "Nanum Myeongjo", "PT Mono", "Courier New";
   font-weight: 500;
   height: 100vh;
+  display: block;
 }
 
 /* link styles */
