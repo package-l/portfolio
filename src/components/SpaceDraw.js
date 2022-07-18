@@ -15,10 +15,10 @@ const SpaceDrawing = () => {
                         </div>
                 </div>
                 <div className="row justify-content-center align-items-center mx-auto">
-                    <div className="col-6 imageContainer">
+                    <div className="col-xs-12 col-s-12 col-md-6 imageContainer">
                         <img className="projectImage" src={spaceDraw} alt="Draw in Space"/>
                     </div>
-                    <div className="col-6 projectInfo">
+                    <div className="col-xs-12 col-s-12 col-md-6 projectInfo">
                         <h4><b>DRAW IN SPACE</b></h4>
                         <div>HTML, CSS, JavaScript</div>
                         <div>(<a href="https://package-l.github.io/spacedrawing/" target="_blank" rel="noopener noreferrer">live</a>/<a href="https://github.com/package-l/spacedrawing" target="_blank" rel="noopener noreferrer">code</a>)</div> 
