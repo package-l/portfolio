@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import icon from '../icons8-ghost-80.png';
-import acEmoji from '../img/animalcrossing_emoji.png';
-import podArch from '../img/podarchive.png';
-import spaceDraw from '../img/spacedrawing.png';
+import acEmoji from '../img/animalcrossing_emoji-min.png';
+import podArch from '../img/podarchive-min.png';
+import spaceDraw from '../img/spacedrawing-min.png';
 
 const Projects = () => {
     /*const windowSize = Window();
