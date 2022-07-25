@@ -35,7 +35,6 @@ const PodArchive = () => {
                             <li>Add podcast/episode information to the API</li>
                             <li>Add other user's lists to your watchlist</li>
                         </ul>
-                        <p>To use website, please register an account or use username "podface" with password "example".<p>
                     </div>
                 </div>
                 <div className="row pageNav">
