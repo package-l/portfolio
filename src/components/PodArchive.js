@@ -21,7 +21,7 @@ const PodArchive = () => {
                         <h4><b>POD ARCHIVE</b></h4>
                         <h6><b>AN EPISODE-CENTRIC NETWORK SPACE</b></h6>
                         <div>JavaScript, Python, Django, Bootstrap</div>
-                        <div>(<a href="https://github.com/package-l/podcast_archive" target="_blank" rel="noopener noreferrer">code</a>)</div> 
+                        <div>(<a href="https://podcastarchive.herokuapp.com/" target="_blank" rel="noopener noreferrer">live</a>/<a href="https://github.com/package-l/podcast_archive" target="_blank" rel="noopener noreferrer">code</a>)</div> 
                         <br></br>
                         <p>A simple episode-centric website for reviewing and making custom lists of podcast episodes.
                             The website uses Django and Python to build an API and authenticate users. Features of the site
@@ -29,12 +29,13 @@ const PodArchive = () => {
                         </p>
                         <ul>
                             <li>User log-in/registration/authentication</li>
-                            <li>Loose social network system based on follows between users</li>
+                            <li>Social network system based on follows between users</li>
                             <li>Make custom lists</li>
                             <li>Lists can be public or private</li>
                             <li>Add podcast/episode information to the API</li>
                             <li>Add other user's lists to your watchlist</li>
                         </ul>
+                        <p>To use website, please register an account or use username "podface" with password "example".<p>
                     </div>
                 </div>
                 <div className="row pageNav">
