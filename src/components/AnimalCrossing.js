@@ -21,7 +21,7 @@ const AnimalCrossing = () => {
                         <h4><b>A DATA VISUALIZATION:</b></h4>
                         <h6><b>ANIMAL CROSSING NEW HORIZONS 2.0</b></h6>
                         <div>React, D3.js, JavaScript, Bootstrap</div>
-                        <div>(<a href="https://package-l.github.io/animal_crossing_edit2/" target="_blank" rel="noopener noreferrer">live</a>/<a href="https://github.com/package-l/animal_crossing_edit2" target="_blank" rel="noopener noreferrer">code</a>)</div> 
+                        <div>(<a href="https://github.com/package-l/animal_crossing_edit2" target="_blank" rel="noopener noreferrer">code</a>)</div> 
                         <br></br>
                         <p>A collaborative project tracing the activity and social media data of 
                         the Animal Crossing community on Twitter around the time of the 2.0 game update.
