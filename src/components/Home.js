@@ -79,13 +79,13 @@ const Home = () => {
               <div className="row align-items-start About_text"><p className="About_text"><span className="about">I am a web developer with an art and design background. In my free time, I enjoy scaring 
                 myself with horror movies and watching existential sci-fi. Feel free to look around and take a look at my&nbsp;</span>
                 <Link to="/projects" className="link">PROJECTS</Link>
-                <span className="about">&nbsp;and </span><span class="link"><a href={Pdf} target="_blank" rel="noopener noreferrer">EXPERIENCE</a></span>.
+                <span className="about">&nbsp;and </span><span class="link"><a href={Pdf} target="_blank" rel="noopener noreferrer" aria-label="resume pdf link - link opens in new tab">EXPERIENCE</a></span>.
               </p></div>
               <div className="row Contact_text">
                   <span><b>CONTACT:</b></span>
                   <span>louisa.shan.ge@gmail.com</span>
-                  <span><a href="https://github.com/package-l" target="_blank" rel="noopener noreferrer">GitHub</a></span>
-                  <span><a href="https://www.linkedin.com/in/louisa-ge/" target="_blank" rel="noopener noreferrer">LinkedIn</a></span>
+                  <span><a href="https://github.com/package-l" target="_blank" rel="noopener noreferrer" aria-label="github profile link - link opens in new tab">GitHub</a></span>
+                  <span><a href="https://www.linkedin.com/in/louisa-ge/" target="_blank" rel="noopener noreferrer" aria-label="linkedin profile link - link opens in new tab">LinkedIn</a></span>
               </div>
           </div>
         </div>

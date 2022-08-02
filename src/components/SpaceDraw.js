@@ -21,7 +21,7 @@ const SpaceDrawing = () => {
                     <div className="col-xs-12 col-s-12 col-md-6 projectInfo">
                         <h4><b>DRAW IN SPACE</b></h4>
                         <div>HTML, CSS, JavaScript</div>
-                        <div>(<a href="https://package-l.github.io/spacedrawing/" target="_blank" rel="noopener noreferrer">live</a>/<a href="https://github.com/package-l/spacedrawing" target="_blank" rel="noopener noreferrer">code</a>)</div> 
+                        <div>(<a href="https://package-l.github.io/spacedrawing/" target="_blank" rel="noopener noreferrer" aria-label="draw in space website link - link opens in new tab">live</a>/<a href="https://github.com/package-l/spacedrawing" target="_blank" rel="noopener noreferrer" aria-label="draw in space github code link - link opens in new tab">code</a>)</div> 
                         <br></br>
                         <p>A simple website using canvas where users can draw something and save their white-line 
                             drawing as a png file. 
