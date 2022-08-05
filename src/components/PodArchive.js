@@ -24,7 +24,8 @@ const PodArchive = () => {
                         <div>(<a href="https://podcastarchive.herokuapp.com/" target="_blank" rel="noopener noreferrer" aria-label="pod archive website link - link opens in new tab">live</a>/<a href="https://github.com/package-l/podcast_archive" target="_blank" rel="noopener noreferrer" aria-label="pod archive github code link - link opens in new tab">code</a>)</div> 
                         <br></br>
                         <p>A simple episode-centric website for reviewing and making custom lists of podcast episodes.
-                            The website uses Django and Python to build an API and authenticate users. Features of the site
+                            The website uses Django and Python to build an API and authenticate users. To use, please create an account
+                            or login using "podface" (username) and "example" (password). Features of the site
                             include:
                         </p>
                         <ul>
