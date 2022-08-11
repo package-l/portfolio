@@ -20,7 +20,7 @@ const AnimalCrossing = () => {
                     <div className="col-xs-12 col-s-12 col-md-6 projectInfo">
                         <h4><b>A DATA VISUALIZATION:</b></h4>
                         <h6><b>ANIMAL CROSSING NEW HORIZONS 2.0</b></h6>
-                        <div>React, D3.js, JavaScript, Bootstrap</div>
+                        <div>D3.js, JavaScript, Bootstrap, fullPage.js</div>
                         <div>(<a href="https://package-l.github.io/animal_crossing_edit2/" target="_blank" rel="noopener noreferrer" aria-label="animal crossing website link - link opens in new tab">live</a>/<a href="https://github.com/package-l/animal_crossing_edit2" target="_blank" rel="noopener noreferrer" aria-label="animal crossing github code link - link opens in new tab">code</a>)</div> 
                         <br></br>
                         <p>A collaborative project tracing the activity and social media data of 
