@@ -78,7 +78,7 @@ const Projects = () => {
                                     <img className="projects" src={acEmoji} alt="Animal Crossing" width="300" height="300"/>
                                     <div className="overlay">
                                         <div className="text">A Data Visualization: Animal Crossing New Horizons 2.0</div>
-                                        <p>React, D3.js, Bootstrap, fullPage.js</p>
+                                        <p>JavaScript, D3.js, Bootstrap, fullPage.js</p>
                                     </div>
                                 </Link>
                             </div>
