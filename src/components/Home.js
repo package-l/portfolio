@@ -75,9 +75,10 @@ const Home = () => {
                         <img className="Ghost" src={icon} alt="Ghost Icon" />
                     </div>
               </div>
-              <div className="row align-items-start Intro_text" style={{textShadow: shadows}}>Hi, my name is Louisa</div>
-              <div className="row align-items-start About_text"><p className="About_text"><span className="about">I am a web developer with an art and design background. In my free time, I enjoy scaring 
-                myself with horror movies and watching existential sci-fi. Feel free to look around and take a look at my&nbsp;</span>
+              <div className="row align-items-start Intro_text" style={{textShadow: shadows}}>Hi, my name is Louisa.</div>
+              <div className="row align-items-start About_text"><p className="About_text"><span className="about">I am a web developer with an art and design background.
+              I enjoy building interactive and visually exciting products.
+              Feel free to look around and take a look at my&nbsp;</span>
                 <Link to="/projects" className="link">PROJECTS</Link>
                 <span className="about">&nbsp;and </span><span class="link"><a href={Pdf} target="_blank" rel="noopener noreferrer" aria-label="resume pdf link - link opens in new tab">EXPERIENCE</a></span>.
               </p></div>
