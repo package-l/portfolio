@@ -3,7 +3,7 @@ import '../shadows.css';
 import icon from '../icons8-ghost-80.png';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import Pdf from '../documents/Resume_LouisaGe.pdf';
+import Pdf from '../documents/Resume__LouisaGe.pdf';
 import Window from './Window';
 
 const Home = () => {
