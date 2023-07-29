@@ -102,6 +102,7 @@ const Home = () => {
                     <span><a href="https://github.com/package-l" target="_blank" rel="noopener noreferrer" aria-label="github profile link - link opens in new tab">GitHub</a></span>
                     <span><a href="https://www.linkedin.com/in/louisa-ge/" target="_blank" rel="noopener noreferrer" aria-label="linkedin profile link - link opens in new tab">LinkedIn</a></span>
                 </div>
+                <br/>
               </div>
           </div>
         </div>
