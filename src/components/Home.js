@@ -86,21 +86,22 @@ const Home = () => {
                         <img className="Ghost" src={icon} alt="Ghost Icon" />
                     </div>
               </div>
-              <div>
-                <div ref={textRef} className="row align-items-start Intro_text" style={{textShadow: shadows}}>Hi, my name is Louisa.</div>
-                <div className="row align-items-start About_text"><p className="About_text"><span className="about">I am a web developer with an art and design background.
-                I enjoy building interactive and visually exciting products.
-                Feel free to look around and take a look at my&nbsp;</span>
-                <a href="https://cookiemonsters.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="link to capstone project - link opens in new tab">PROJECTS</a>
-                  {/*<Link to="/projects" className="link">PROJECTS</Link>*/}
-                  <span className="about">&nbsp;and </span><span className="link"><a href={Pdf} target="_blank" rel="noopener noreferrer" aria-label="resume pdf link - link opens in new tab">EXPERIENCE</a></span>.
-                </p></div>
-              </div>
-              <div className="row Contact_text">
-                  <span><b>CONTACT:</b></span>
-                  <span>louisa.shan.ge@gmail.com</span>
-                  <span><a href="https://github.com/package-l" target="_blank" rel="noopener noreferrer" aria-label="github profile link - link opens in new tab">GitHub</a></span>
-                  <span><a href="https://www.linkedin.com/in/louisa-ge/" target="_blank" rel="noopener noreferrer" aria-label="linkedin profile link - link opens in new tab">LinkedIn</a></span>
+              <div className="content-container">
+                <div>
+                  <div ref={textRef} className="row align-items-start Intro_text" style={{textShadow: shadows}}>Hi, my name is Louisa.</div>
+                  <div className="row align-items-start About_text"><p className="About_text"><span className="about">I am a web developer with an art and design background.
+                  I enjoy building interactive and visually exciting products.
+                  Feel free to look around and take a look at my&nbsp;</span>
+                    <Link to="/projects" className="link">PROJECTS</Link>
+                    <span className="about">&nbsp;and </span><span className="link"><a href={Pdf} target="_blank" rel="noopener noreferrer" aria-label="resume pdf link - link opens in new tab">EXPERIENCE</a></span>.
+                  </p></div>
+                </div>
+                <div className="row Contact_text">
+                    <span><b>CONTACT:</b></span>
+                    <span>louisa.shan.ge@gmail.com</span>
+                    <span><a href="https://github.com/package-l" target="_blank" rel="noopener noreferrer" aria-label="github profile link - link opens in new tab">GitHub</a></span>
+                    <span><a href="https://www.linkedin.com/in/louisa-ge/" target="_blank" rel="noopener noreferrer" aria-label="linkedin profile link - link opens in new tab">LinkedIn</a></span>
+                </div>
               </div>
           </div>
         </div>

@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import AnimalCrossing from './components/AnimalCrossing'
 import PodArchive from './components/PodArchive'
 import SpaceDrawing from './components/SpaceDraw'
+import Paindora from './components/Paindora';
 
 const App = () => {
 
@@ -17,9 +18,8 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/animalcrossing" element={<AnimalCrossing />} />
         <Route path="/podarchive" element={<PodArchive />} />
-        <Route path="/spacedrawing" element={<SpaceDrawing />} />
+        <Route path="/paindora" element={<Paindora />} />
       </Routes>
-      <Footer />
     </Router>
   )
 }

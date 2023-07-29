@@ -158,6 +158,16 @@ a:hover {
   background-color: black;
 }
 
+.projects.paindora {
+  filter: brightness(90%);
+ -webkit-filter: brightness(90%);
+}
+
+.projects {
+  -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(90%);
+}
+
 .container .each_project:hover .overlay {
   opacity: 0.8;
 }
@@ -216,12 +226,40 @@ a:hover {
 
 /* Animal Crossing project page styling */
 
+
+.all_projects {
+  animation: fadeInAnimation ease-in-out 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+   }
+}
+
 .project {
   text-align: center;
   background-color: #EBECF0; /*#282c34*/
   color: #282c34;
   min-height: 100vh;
   font-family: "Nanum Myeongjo", "PT Mono", "Courier New";
+  animation: fadeInAnimation ease-in-out 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .projectImage {
