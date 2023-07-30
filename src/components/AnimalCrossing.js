@@ -21,14 +21,16 @@ const AnimalCrossing = () => {
                         <h4><b>A DATA VISUALIZATION:</b></h4>
                         <h6><b>ANIMAL CROSSING NEW HORIZONS 2.0</b></h6>
                         <div>D3.js, JavaScript, Bootstrap, fullPage.js</div>
-                        <div>(<a href="https://package-l.github.io/animal_crossing_edit2/" target="_blank" rel="noopener noreferrer" aria-label="animal crossing website link - link opens in new tab">live</a>/<a href="https://github.com/package-l/animal_crossing_edit2" target="_blank" rel="noopener noreferrer" aria-label="animal crossing github code link - link opens in new tab">code</a>)</div> 
+                        <div>(<a href="https://package-l.github.io/d3animalcrossing/" target="_blank" rel="noopener noreferrer" aria-label="animal crossing website link - link opens in new tab">live</a>/<a href="https://github.com/package-l/d3animalcrossing" target="_blank" rel="noopener noreferrer" aria-label="animal crossing github code link - link opens in new tab">code</a>)</div> 
                         <br></br>
                         <p>A collaborative project tracing the activity and social media data of 
                         the Animal Crossing community on Twitter around the time of the 2.0 game update.
                         Using data scraped from the Twitter API, our team wanted to see what trends were present
-                        in the community by looking at tweet density, word frequency, etc. 
+                        in the community by looking at tweet density, word frequency, etc.
                         </p>
-                        <p>My contributions include the pictured emoji visualization, styling elements, and implementing fullPage.js.</p>
+                        <p>My contributions include the pictured emoji visualization, styling elements, and implementing fullPage.js.
+                            The live link will take you to a website that showcases my contributions.
+                        </p>
                         <p>Team members: <br></br>Louisa Ge, Minkuan Chen, Daniel Schwartz, and Ryan Buehler</p>
                     </div>
                 </div>

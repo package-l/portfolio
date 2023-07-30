@@ -20,7 +20,7 @@ const Paindora = () => {
             <div className="col-xs-12 col-s-12 col-md-6 projectInfo">
                 <h4><b>PAINDORA'S BOX OF COOKIE MONSTERS</b></h4>
                 <div>React.js, HTML, CSS, JavaScript</div>
-                <div>(<a href="https://cookiemonsters.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="paindora's box website link - link opens in new tab">live</a>/<a href="https://github.com/package-l/spacedrawing" target="_blank" rel="noopener noreferrer" aria-label="draw in space github code link - link opens in new tab">code</a>)</div> 
+                <div>(<a href="https://cookiemonsters.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="paindora's box website link - link opens in new tab">live</a>/<a href="https://github.com/package-l/pain-dora" target="_blank" rel="noopener noreferrer" aria-label="draw in space github code link - link opens in new tab">code</a>)</div> 
                 <br></br>
                 <p>Made in collaboration with an artist client, Andy Chan, and <i>Fine, Di(n)e w/ Me studios</i>, Paindora's Box
                     of Cookie Monsters is an interactive storytelling website that showcases a variety of
