@@ -24,6 +24,7 @@ const PodArchive = () => {
                         <div>(<a href="https://packagel.pythonanywhere.com/" target="_blank" rel="noopener noreferrer" aria-label="pod archive website link - link opens in new tab">live</a>/<a href="https://github.com/package-l/podcast_archive" target="_blank" rel="noopener noreferrer" aria-label="pod archive github code link - link opens in new tab">code</a>)</div> 
                         <br></br>
                         <p>A simple episode-centric website for reviewing and documenting podcast episodes in a social network.
+                            The focus of this project is not in the front-end or design, but rather the creation of backend support for a website.
                             The website uses Django and Python to build an API, authenticate users, and perform CRUD operations. To use, please create an account
                             or login using "podface" (username) and "example" (password). Features of the site
                             include:
